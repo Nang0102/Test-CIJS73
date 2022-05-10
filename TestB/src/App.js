@@ -4,7 +4,11 @@ import { LinkShortener } from "./component/LinkShortener/index";
 function App() {
   return (
     <div>
-      <LinkShortener />
+      <div>
+        <h1 style={{ marginLeft: "14%" }}> Link Shortener</h1>
+        <LinkShortener />
+      </div>
+      <div></div>
     </div>
   );
 }
